@@ -12,4 +12,4 @@ config_version=5
 
 config/name="GameDevInsiders-TinyGameJam"
 config/features=PackedStringArray("4.5", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://assets/entities/player/icon.svg"

@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://faosuk8anagf"]
+
+[ext_resource type="PackedScene" uid="uid://dxlnb2fpv7ev8" path="res://assets/entities/player/items/gun/gun.tscn" id="1_iuonh"]
+[ext_resource type="PackedScene" uid="uid://bv8grl7d7sjhv" path="res://assets/entities/enemies/enemy.tscn" id="2_k2fmo"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Gun" parent="." instance=ExtResource("1_iuonh")]
+position = Vector2(111, 369)
+
+[node name="Enemy" parent="." instance=ExtResource("2_k2fmo")]
+position = Vector2(893, 152)
